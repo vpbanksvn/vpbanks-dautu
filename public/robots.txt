@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vpbanks-dautu.onrender.com/sitemap.xml
