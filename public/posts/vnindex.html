@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Quỹ mô phỏng chỉ số bám sát chỉ số tới đâu</title><meta name="description" content="Một quỹ mô phỏng chỉ số đặt mục tiêu cho kết quả gần với chỉ số tham chiếu. Trên thực tế luôn có khoảng cách, và biết khoảng cách đó đến từ đâu giúp đọc kết quả đúng hơn. Bốn nguồn"><style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;padding:32px 20px 64px;
+  font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#1c1e21;background:#fff}
+main,article{max-width:720px;margin:0 auto}
+h1{font-size:1.9rem;line-height:1.3;margin:0 0 .6em;font-weight:700}
+h2{font-size:1.35rem;line-height:1.35;margin:1.8em 0 .5em}
+h3{font-size:1.15rem;line-height:1.4;margin:1.8em 0 .5em}
+p{margin:0 0 1.15em}
+ul,ol{margin:0 0 1.15em;padding-left:1.4em}
+li{margin:.3em 0}
+a{color:#0b5fff;text-decoration:underline;text-underline-offset:2px}
+img{max-width:100%;height:auto;display:block;margin:1.6em auto;border-radius:8px}
+em,figcaption{color:#5b6570}
+blockquote{margin:1.4em 0;padding:.8em 1em;border-left:3px solid #d7dbe0;background:#f7f8fa}
+small{color:#5b6570}
+hr{border:0;border-top:1px solid #e6e9ec;margin:2em 0}
+table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:.94em}
+th,td{border:1px solid #e0e4e8;padding:.55em .7em;text-align:left;vertical-align:top}
+th{background:#f4f6f8;font-weight:600}
+.tbl{overflow-x:auto}
+ul.kw{columns:2;column-gap:2em;padding-left:1.2em}
+@media (max-width:600px){ul.kw{columns:1}}
+@media (max-width:600px){body{padding:20px 16px 48px;font-size:16px}h1{font-size:1.55rem}}
+@media (prefers-color-scheme:dark){
+  body{background:#15171a;color:#e6e8ea}
+  a{color:#7aa7ff}
+  blockquote{background:#1d2024;border-left-color:#333}
+  th{background:#20242a}
+  th,td{border-color:#2e3238}
+  em,figcaption,small{color:#9aa3ad}
+  hr{border-top-color:#2a2e33}
+}
+</style></head>
+<body>
+<article>
+<h1>Quỹ mô phỏng chỉ số bám sát chỉ số tới đâu</h1>
+<p>Một quỹ mô phỏng chỉ số đặt mục tiêu cho kết quả gần với chỉ số tham chiếu. Trên thực tế luôn có khoảng cách, và biết khoảng cách đó đến từ đâu giúp đọc kết quả đúng hơn.</p>
+
+<h3>Bốn nguồn tạo ra chênh lệch</h3>
+
+<p><strong>Chi phí quản lý.</strong> Quỹ mô phỏng chỉ số quản lý thụ động nên chi phí thường thấp hơn quỹ chủ động, nhưng vẫn khác không. Khoản này được trừ dần vào giá trị tài sản ròng nên kết quả của quỹ thấp hơn chỉ số đúng bằng phần chi phí.</p>
+
+<p><strong>Chi phí giao dịch khi cơ cấu lại rổ.</strong> Mỗi kỳ rà soát rổ chỉ số, quỹ phải mua bán để bám theo thành phần mới, và phần chi phí đó nằm lại trong kết quả.</p>
+
+<p><strong>Phần tiền mặt chờ giải ngân.</strong> Dòng tiền vào ra làm quỹ luôn giữ một phần tiền chưa đầu tư, nên tỷ lệ bám sát không bao giờ khớp hoàn toàn.</p>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid21%20(4)" alt="VNIndex - Bốn nguồn tạo ra chênh lệch" title="VNIndex - Bốn nguồn tạo ra chênh lệch" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: VNIndex</em></p>
+
+<p><strong>Cổ tức nhận được.</strong> Thời điểm nhận và tái đầu tư cổ tức không trùng với cách chỉ số xử lý sự kiện quyền, tạo ra chênh lệch theo cả hai chiều.</p>
+
+<p>Bốn nguồn trên cộng lại tạo ra phần chênh lệch giữa kết quả của quỹ và mức thay đổi của chỉ số qua cùng một kỳ. Con số này thường được công bố trong báo cáo định kỳ của quỹ, và là chỉ tiêu đáng xem khi so sánh giữa các quỹ cùng tham chiếu một chỉ số.</p>
+
+<h3>Phân biệt với chênh lệch giá trên sàn</h3>
+
+<p>Còn một loại chênh lệch khác, không liên quan tới danh mục: khoảng cách giữa giá khớp trên sàn và giá trị tài sản ròng của quỹ. Chứng chỉ quỹ niêm yết giao dịch như cổ phiếu, giá biến động theo thị trường suốt phiên, nên giá khớp có thể cao hơn hoặc thấp hơn giá trị danh mục bên dưới.</p>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid22%20(4)" alt="VNIndex - Phân biệt với chênh lệch giá trên sàn" title="VNIndex - Phân biệt với chênh lệch giá trên sàn" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: VNIndex</em></p>
+
+<p style="margin:10px 0;padding:9px 14px;background:#f0f7ff;border-left:4px solid #2563eb;border-radius:0 6px 6px 0;font-size:13px;line-height:1.5">&#128279; <strong style="color:#1e3a5f">Xem thêm:</strong> <a href="https://vpbanksvn.blogspot.com/2026/09/chi-so-cua-san-tphcm-uoc-tinh-nhu-nao.html" style="color:#2563eb;text-decoration:underline">Chỉ số của sàn TP.HCM được tính như thế nào</a></p>
+
+<p>Để người mua đối chiếu, quỹ niêm yết công bố giá trị tài sản ròng tham chiếu liên tục trong phiên. Quỹ mở không có cơ chế này vì giá chỉ hình thành theo giá trị tài sản ròng cuối ngày, và lệnh đặt trực tiếp qua công ty quản lý quỹ.</p>
+
+<p>Hai loại chênh lệch trên cần đọc tách nhau: một loại thuộc về vận hành danh mục, một loại thuộc về cung cầu trên sàn. Kiến thức nền về chỉ số nằm ở <a href="https://www.vpbanks.com.vn/trung-tam-kien-thuc/vnindex-la-gi">trung tâm kiến thức của Chứng khoán VPBank</a>.</p>
+
+<h3>Kết luận</h3>
+
+<p>Khoảng cách giữa quỹ và chỉ số đến từ chi phí quản lý, chi phí cơ cấu rổ, phần tiền chờ giải ngân và cách xử lý cổ tức. Chênh lệch giữa giá sàn và giá trị tài sản ròng là chuyện khác, và có giá trị tham chiếu trong phiên để đối chiếu.</p>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid23%20(1)" alt="VNIndex - Kết luận" title="VNIndex - Kết luận" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: VNIndex</em></p>
+
+<p>Nội dung mang tính tham khảo, không phải khuyến nghị đầu tư. Nhà đầu tư tự chịu trách nhiệm với quyết định của mình.</p>
+
+<p>#vpbanks #etf #vnindex #quymo #dautu</p>
+<hr>
+<p class="tohub"><small><a href="/">← VPBankS — Sản phẩm và kênh đầu tư chứng khoán</a></small></p>
+</article>
+</body></html>
