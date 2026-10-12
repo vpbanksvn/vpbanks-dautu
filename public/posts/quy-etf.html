@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Chỉ số giảm thì giá trị quỹ ETF giảm theo: ví dụ bằng số</title><meta name="description" content="Quỹ ETF quản lý thụ động nên danh mục bám theo rổ của chỉ số tham chiếu, không chọn mã thay nhà đầu tư. Từ đó có cách hiểu chưa chính xác rằng không chọn mã thì rủi ro giảm giá cũn"><style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;padding:32px 20px 64px;
+  font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#1c1e21;background:#fff}
+main,article{max-width:720px;margin:0 auto}
+h1{font-size:1.9rem;line-height:1.3;margin:0 0 .6em;font-weight:700}
+h2{font-size:1.35rem;line-height:1.35;margin:1.8em 0 .5em}
+h3{font-size:1.15rem;line-height:1.4;margin:1.8em 0 .5em}
+p{margin:0 0 1.15em}
+ul,ol{margin:0 0 1.15em;padding-left:1.4em}
+li{margin:.3em 0}
+a{color:#0b5fff;text-decoration:underline;text-underline-offset:2px}
+img{max-width:100%;height:auto;display:block;margin:1.6em auto;border-radius:8px}
+em,figcaption{color:#5b6570}
+blockquote{margin:1.4em 0;padding:.8em 1em;border-left:3px solid #d7dbe0;background:#f7f8fa}
+small{color:#5b6570}
+hr{border:0;border-top:1px solid #e6e9ec;margin:2em 0}
+table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:.94em}
+th,td{border:1px solid #e0e4e8;padding:.55em .7em;text-align:left;vertical-align:top}
+th{background:#f4f6f8;font-weight:600}
+.tbl{overflow-x:auto}
+ul.kw{columns:2;column-gap:2em;padding-left:1.2em}
+@media (max-width:600px){ul.kw{columns:1}}
+@media (max-width:600px){body{padding:20px 16px 48px;font-size:16px}h1{font-size:1.55rem}}
+@media (prefers-color-scheme:dark){
+  body{background:#15171a;color:#e6e8ea}
+  a{color:#7aa7ff}
+  blockquote{background:#1d2024;border-left-color:#333}
+  th{background:#20242a}
+  th,td{border-color:#2e3238}
+  em,figcaption,small{color:#9aa3ad}
+  hr{border-top-color:#2a2e33}
+}
+</style></head>
+<body>
+<article>
+<h1>Chỉ số giảm thì giá trị quỹ ETF giảm theo: ví dụ bằng số</h1>
+<p>Quỹ ETF quản lý thụ động nên danh mục bám theo rổ của chỉ số tham chiếu, không chọn mã thay nhà đầu tư. Từ đó có cách hiểu chưa chính xác rằng không chọn mã thì rủi ro giảm giá cũng biến mất. Bài này dùng một phép tính giả định để cho thấy rủi ro vẫn đi theo chỉ số.</p>
+<p>Khái niệm nền tảng nằm ở <a href="https://www.vpbanks.com.vn/trung-tam-kien-thuc/etf-la-gi">cơ chế vận hành của quỹ mô phỏng chỉ số</a>; bài này đi vào hậu quả bằng số của việc bám chỉ số.</p>
+<h3>Quản lý thụ động nghĩa là gì</h3>
+<p>Quỹ ETF mô phỏng biến động của một chỉ số tham chiếu. Khi chỉ số tái cơ cấu định kỳ, tức thêm hoặc bớt mã và đổi tỷ trọng, quỹ điều chỉnh danh mục theo. Quyết định chọn mã vì vậy nằm ở quy tắc của chỉ số chứ không do ban điều hành quỹ đưa ra. Đổi lại, khi chỉ số giảm thì giá trị của quỹ giảm theo, vì danh mục được dựng để đi cùng chỉ số.</p>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid2%20(9)" alt="quỹ etf - Quản lý thụ động nghĩa là gì" title="quỹ etf - Quản lý thụ động nghĩa là gì" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: quỹ etf</em></p>
+<h3>Ví dụ giả định: chỉ số giảm 10%</h3>
+<p>Giả sử NAV trên một <a href="https://vpbanks.mataroa.blog/blog/quy-mo-quy-ong-va-etf-khac-nhau-o-cho-nao/">chứng chỉ quỹ</a> là 20.000 đồng và chỉ số tham chiếu giảm 10% trong một giai đoạn. Nếu quỹ bám sát, NAV tham chiếu giảm khoảng 2.000 đồng, về khoảng 18.000 đồng. Chi phí vận hành và các nguồn sai lệch mô phỏng khiến con số thực tế có thể lệch đôi chút so với phép tính này.</p>
+
+<p style="margin:10px 0;padding:9px 14px;background:#f0f7ff;border-left:4px solid #2563eb;border-radius:0 6px 6px 0;font-size:13px;line-height:1.5">&#128279; <strong style="color:#1e3a5f">Xem thêm:</strong> <a href="https://vpbanks-dautu.onrender.com/posts/au-tu-tich-san.html" style="color:#2563eb;text-decoration:underline">Tích sản bằng chứng chỉ quỹ: chọn ETF hay quỹ mở</a></p>
+<p>Với 500 chứng chỉ quỹ, giá trị phần sở hữu đổi từ 10.000.000 đồng xuống khoảng 9.000.000 đồng, tức giảm khoảng 1.000.000 đồng. Cách đọc giá trị thị trường còn phụ thuộc phần bù hoặc chiết khấu giữa giá khớp và NAV, còn việc chứng chỉ quỹ được tạo ra và giao dịch qua hai tầng thị trường nằm ở bài <a href="https://telegra.ph/Quỹ-ETF-là-gì-Định-nghĩa-theo-luật-và-cơ-chế-hai-tầng-09-23">cơ chế hai tầng thị trường sơ cấp và thứ cấp của ETF</a>.</p>
+<h3>Phép tính ngược: cần tăng bao nhiêu để về mức cũ</h3>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid0%20(9)" alt="quỹ etf - Phép tính ngược: cần tăng bao nhiêu để về mức cũ" title="quỹ etf - Phép tính ngược: cần tăng bao nhiêu để về mức cũ" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: quỹ etf</em></p>
+<p>Từ 18.000 đồng về lại 20.000 đồng cần mức tăng 2.000 đồng trên nền 18.000 đồng, tức khoảng 11,1%. Mức tăng cần thiết luôn lớn hơn mức giảm trước đó, vì cùng một số đồng nhưng nay tính trên nền thấp hơn. Đây là phép số học, không phải dự đoán chỉ số sẽ đi theo hướng nào.</p>
+<h3>Ví dụ này không nói điều gì</h3>
+<ul><li>Không dự đoán chỉ số tăng hay giảm; mức 10% chỉ để minh hoạ phép tính.</li><li>Không so sánh quỹ ETF với sản phẩm khác.</li><li>Không phản ánh một quỹ cụ thể; mỗi quỹ có chỉ số tham chiếu và chi phí riêng.</li></ul><p>Phần rủi ro của từng quỹ được liệt kê trong bản cáo bạch, nơi nhà đầu tư kiểm tra chỉ số tham chiếu, các loại phí và các rủi ro trước khi giao dịch.</p>
+<h3>Kết luận</h3>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid1%20(9)" alt="quỹ etf - Kết luận" title="quỹ etf - Kết luận" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: quỹ etf</em></p>
+<p>Quản lý thụ động bỏ khâu chọn từng mã nhưng không loại bỏ rủi ro giảm theo chỉ số: chỉ số giảm 10% thì NAV tham chiếu giảm khoảng 10%, và muốn về mức cũ cần mức tăng khoảng 11,1%. Số liệu trong bài là giả định minh hoạ. Nội dung mang tính tham khảo, không phải khuyến nghị đầu tư.</p>
+
+<p>#quyetf #chisothamchieu #ruiro #kienthucdautu</p>
+<hr>
+<p class="tohub"><small><a href="/">← VPBankS — Sản phẩm và kênh đầu tư chứng khoán</a></small></p>
+</article>
+</body></html>
